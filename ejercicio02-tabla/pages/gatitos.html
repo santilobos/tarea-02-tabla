@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="../style.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia de gatitos</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon-cat.svg">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Gatitos</a></li>
+            <ul>
+                <li class="deep-list"><a href="#image">Visualizar imagen</a></li>
+                <li class="deep-list"><a href="#video">Reproducir video</a></li>
+                <li class="deep-list"><a href="#audio">Escuchar audio</a></li>
+            </ul>
+        </ul>
+      </nav>
+
+    <section id="image">
+        <figure>
+            <img src="../assets/imagen-gatito.jpg" alt="Gatito mirando hacia arriba" style="width:80%">
+            <figcaption>Gatito mirando hacia arriba</figcaption>
+          </figure>
+    </section>
+
+    <section id="video">
+        <video width="858" height="480" controls>
+            <source src="../assets/video-gatito.mp4" type="video/mp4">
+            <source src="../assets/video-gatito.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+
+          <!-- Se podría utilizar un iframe para embeber la url? con los enlaces de pexels y pixabay no funciona-->
+          
+          <!-- iframe id="player" type="text/html" width="640" height="360"
+          src="http://www.youtube.com/embed/watch?v=O8_WJIzN43E"
+          frameborder="0"></iframe> -->
+
+          <!-- iframe id="player" type="text/html" width="640" height="360"
+          src="https://pixabay.com/es/videos/gatito-juego-mascotas-4216/"
+          frameborder="0"></iframe>-->
+
+    </section>
+
+    <section id="audio">
+        <audio controls>
+            <source src="../assets/sonido-gatito.mp3" type="audio/ogg">
+            <source src="../assets/sonido-gatito.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6e6e6e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+nav > ul > li {
+  list-style-type:none;
+  display: inline;
+  margin-right: 40px;
+}
+
+.deep-list {
+  margin-left: 80px;
+  margin-top: 8px;
+}
+
+/* PREGUNTAR SI ESTO SERVIRÍA PARA AÑADIR COMO ESTILO EN BLOQUE, Y LUEGO ANULAR INDIVIDUALMENTE LA CELDA DESEADA */
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
